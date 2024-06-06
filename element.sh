@@ -24,6 +24,7 @@ else
          WHERE elements.symbol = '$ARG' OR elements.name = '$ARG'"
 fi
 
+#please go back and star my repo
 RESULT=$($PSQL "$QUERY")
 
 if [[ -z $RESULT ]]; then
